@@ -26,8 +26,6 @@ logic [3:0] ext_cnt_sampled_div5_seq;
 logic [3:0] ext_cnt_sampled_div5_cg;
 
 
-assign sys_clk_n = !sys_clk;
-
 // Lab1.1 - Instantiate icg_box modules below
 
 
@@ -35,12 +33,16 @@ assign sys_clk_n = !sys_clk;
 // Lab1.2 - Design module gf_clk_mux and uncomment this section
 
 
+  
+// Lab1.3 - Generate sys_clk_n and instantiate its icg_box 
 
-// Lab1.3 - Design module clk_div5_seq and instantiate below
+
+  
+// Lab1.4 - Design module clk_div5_seq and instantiate below
 
 
 
-// Lab1.4 - Design module clk_div5_cg and instantiate below
+// Lab1.5 - Design module clk_div5_cg and instantiate below
 
 
 
